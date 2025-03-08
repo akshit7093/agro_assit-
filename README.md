@@ -376,7 +376,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 📞 Contact
 
-For any inquiries, feel free to reach out via GitHub Issues or email at `your.email@example.com`.
+For any inquiries, feel free to reach out via GitHub Issues or email at `akshitsharma7093@gmail.com`.
 
 ---
 
