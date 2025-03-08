@@ -1,24 +1,26 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Multi-Functional AI Assistant
 
-This project implements a multi-functional AI assistant leveraging large language models (LLMs) with the following capabilities:
+This repository contains a multi-functional AI assistant leveraging Large Language Models (LLMs) to provide advanced natural language processing capabilities.
 
-## Features
+## 🚀 Features
 
-- **LLM Integration and Abstraction**: Supports multiple LLM providers with an abstraction layer
-- **Data Ingestion and Processing**: Handles CSV, JSON, and plain text files
+- **LLM Integration & Abstraction**: Supports multiple LLM providers with an abstraction layer.
+- **Data Handling**:
+  - Ingests and processes CSV, JSON, and plain text files.
 - **Core NLP Functionalities**:
   - Text Summarization
   - Sentiment Analysis
   - Named Entity Recognition (NER)
   - Question Answering
   - Code Generation & Assistance
-- **Retrieval-Augmented Generation (RAG)**: Document indexing and semantic search
-- **Conversational Interface**: Multi-turn dialogue with persona switching
-- **Performance Optimization**: Caching, prompt engineering, and monitoring
+- **Retrieval-Augmented Generation (RAG)**:
+  - Document indexing and semantic search.
+- **Conversational Interface**:
+  - Multi-turn dialogue with persona switching.
+- **Performance Optimization**:
+  - Caching, prompt engineering, and monitoring.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 ├── config/                  # Configuration files
@@ -64,42 +66,63 @@ This project implements a multi-functional AI assistant leveraging large languag
 └── README.md              # Project documentation
 ```
 
-## Setup and Installation
+## 🛠️ Setup & Installation
 
-1. Clone the repository
-2. Create a virtual environment: `python -m venv venv`
-3. Activate the virtual environment:
-   - Windows: `venv\Scripts\activate`
-   - Unix/MacOS: `source venv/bin/activate`
-4. Install dependencies: `pip install -r requirements.txt`
-5. Create a `.env` file in the config directory with your API keys
-6. Run the application: `streamlit run ui/streamlit_app.py`
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/yourusername/multi-functional-ai-assistant.git
+   cd multi-functional-ai-assistant
+   ```
+2. **Create a Virtual Environment:**
+   ```sh
+   python -m venv venv
+   ```
+3. **Activate the Virtual Environment:**
+   - **Windows:** `venv\Scripts\activate`
+   - **Mac/Linux:** `source venv/bin/activate`
+4. **Install Dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+5. **Set Up Configuration:**
+   - Copy `config/config.example.yaml` to `config/config.yaml` and update it with your settings.
+   - Create a `.env` file inside the `config/` directory and add necessary API keys:
+     ```
+     OPENROUTER_API_KEY=your_openrouter_api_key
+     ```
+6. **Run the Application:**
+   ```sh
+   streamlit run ui/streamlit_app.py
+   ```
 
-## Configuration
+## 🤖 Supported Models
 
-Copy the `config/config.example.yaml` to `config/config.yaml` and update with your settings.
+The AI assistant integrates models via OpenRouter:
 
-Create a `.env` file in the config directory with the following variables:
+- **Google:** Gemini Flash Lite 2.0 Preview (free)
+- **DeepSeek:** R1 (free)
+- **Qwen:** Qwen2.5 VL 72B Instruct (free)
+- **NVIDIA:** Llama 3.1 Nemotron 70B Instruct (free)
 
-```
-OPENROUTER_API_KEY=your_openrouter_api_key
-```
+## 📜 License
 
-## Supported Models
+This project is licensed under the [MIT License](LICENSE).
 
-Currently integrated models from OpenRouter:
+## 💡 Contributing
 
-- Google: Gemini Flash Lite 2.0 Preview (free)
-- DeepSeek: R1 (free)
-- Qwen: Qwen2.5 VL 72B Instruct (free)
-- NVIDIA: Llama 3.1 Nemotron 70B Instruct (free)
+Contributions are welcome! Please follow these steps:
 
-## License
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit changes (`git commit -m "Add new feature"`).
+4. Push the branch (`git push origin feature-branch`).
+5. Open a pull request.
 
-MIT
-=======
-# agro_assit-
->>>>>>> 03017cdc5a9ff389db5251d38cb06342c492602d
-=======
-# agro_assit-
->>>>>>> 03017cdc5a9ff389db5251d38cb06342c492602d
+## 📞 Contact
+
+For any inquiries, feel free to reach out via GitHub Issues or email at `your.email@example.com`.
+
+---
+
+🌟 If you like this project, consider giving it a star! ⭐
+
