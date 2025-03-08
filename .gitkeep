@@ -1,0 +1,2 @@
+touch data/raw/.gitkeep
+touch data/processed/.gitkeep
